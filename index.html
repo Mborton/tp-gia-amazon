@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon y la IA en Contratación: Un Caso de Estudio Revolucionario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #232f3e;
+        }
+        h2 {
+            color: #131921;
+        }
+        .header-image {
+            width: 50%;
+            max-height: 200px;
+            object-fit: cover;
+            position: relative;
+            left: 200px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #232f3e;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #FF9F55;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            left: 50%;
+        }
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid #232f3e;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent #232f3e;
+        }
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid #232f3e;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #232f3e transparent transparent;
+        }
+        .right::after {
+            left: -16px;
+        }
+        .content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png" alt="Logo de Amazon" class="header-image">
+        <h1>Amazon y la IA en Contratación: Un Caso de Estudio Revolucionario</h1>
+        
+        <h2>Introducción</h2>
+        <p>En 2014, Amazon, el gigante del comercio electrónico, se embarcó en un ambicioso proyecto para revolucionar su proceso de contratación mediante el uso de inteligencia artificial. Este caso se volvió un hito en la historia de la IA aplicada a recursos humanos, revelando importantes lecciones sobre los desafíos éticos y prácticos que conlleva la implementación de tecnologías avanzadas en procesos críticos de selección de personal.</p>
+        
+        <h2>Evolución de la Contratación en Recursos Humanos</h2>
+        <p>La contratación en recursos humanos ha experimentado una significativa evolución a lo largo de los años. Veamos esta evolución en detalle:</p>
+        
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>Inicios del siglo XX</h3>
+                    <p>Los procesos de contratación eran principalmente manuales, basados en recomendaciones personales y entrevistas cara a cara. Las empresas confiaban en el juicio personal de los gerentes y en las referencias de los candidatos.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="content">
+                    <h3>Mediados del siglo XX</h3>
+                    <p>Se introdujeron pruebas psicométricas y evaluaciones estandarizadas para medir las habilidades y aptitudes de los candidatos. Esto marcó el inicio de un enfoque más científico en la selección de personal.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>Finales del siglo XX</h3>
+                    <p>La llegada de internet revolucionó el reclutamiento con la aparición de bolsas de trabajo en línea y el uso de software de seguimiento de candidatos (ATS). Esto permitió a las empresas alcanzar un público más amplio y gestionar grandes volúmenes de aplicaciones.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="content">
+                    <h3>Principios del siglo XXI</h3>
+                    <p>Las redes sociales y profesionales como LinkedIn transformaron la forma en que las empresas buscan y evalúan a los candidatos. El reclutamiento se volvió más proactivo, con los reclutadores buscando activamente candidatos potenciales en línea.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>Actualidad</h3>
+                    <p>La inteligencia artificial y el aprendizaje automático están siendo implementados para automatizar y optimizar varios aspectos del proceso de contratación. Esto incluye la preselección de currículums, chatbots para la interacción inicial con candidatos, y análisis predictivo para evaluar el ajuste del candidato.</p>
+                </div>
+            </div>
+        </div>
+        
+        <h2>El Sistema de IA de Amazon: Desarrollo y Objetivos</h2>
+        <p>Amazon invirtió considerables recursos en el desarrollo de un sofisticado algoritmo de aprendizaje automático. Este sistema estaba diseñado para analizar y evaluar currículums de manera automática, con el objetivo de identificar a los candidatos más prometedores de forma rápida y eficiente. La compañía esperaba que esta herramienta pudiera procesar grandes volúmenes de aplicaciones, ahorrando tiempo y recursos en el proceso de selección.</p>
+        
+        <h2>Funcionamiento del Sistema</h2>
+        <p>El algoritmo fue entrenado utilizando patrones de currículums enviados a la empresa durante un período de 10 años. Se esperaba que el sistema aprendiera a reconocer las características de los candidatos exitosos y aplicara ese conocimiento para evaluar nuevas aplicaciones. La IA asignaba puntuaciones a los candidatos, teóricamente permitiendo a los reclutadores centrarse en los perfiles más prometedores.</p>
+        
+        <h2>Desafíos y Controversias</h2>
+        <p>A pesar de las buenas intenciones, el sistema de IA de Amazon pronto se enfrentó a serios desafíos:</p>
+        <ul>
+            <li><strong>Sesgo de género:</strong> El algoritmo mostró una preferencia por candidatos masculinos, reflejando los patrones de contratación históricos en la industria tecnológica.</li>
+            <li><strong>Falta de diversidad:</strong> El sistema tendía a favorecer perfiles similares a los empleados existentes, limitando la diversidad en la fuerza laboral.</li>
+            <li><strong>Dificultades técnicas:</strong> El algoritmo a menudo malinterpretaba información en los currículums, llevando a evaluaciones inexactas.</li>
+        </ul>
+        
+        <h2>Lecciones Aprendidas</h2>
+        <p>El caso de Amazon proporcionó valiosas lecciones para la industria de RR.HH. y tecnología:</p>
+        <ol>
+            <li>La importancia de la supervisión humana en los procesos de IA.</li>
+            <li>La necesidad de diversidad en los datos de entrenamiento para los algoritmos de IA.</li>
+            <li>Los riesgos éticos asociados con la automatización completa de decisiones críticas de contratación.</li>
+            <li>La importancia de la transparencia y la capacidad de explicar las decisiones tomadas por sistemas de IA.</li>
+        </ol>
+        
+        <h2>Conclusión</h2>
+        <p>El caso de Amazon y su sistema de IA para contratación sirve como un importante recordatorio de los desafíos y responsabilidades que conlleva la implementación de tecnologías avanzadas en procesos humanos críticos. Mientras la IA continúa evolucionando, es crucial mantener un equilibrio entre la innovación tecnológica y los valores éticos en el campo de los recursos humanos.</p>
+    </div>
+</body>
+</html>
